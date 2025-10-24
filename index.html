@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Современная пекарня</title>
 </head>
 <body>
     <head>
         <nav>
             
-            <a href="#">
+            <a href="/">
                 <img src="./image/logo.svg" alt="Логотип современной пекарни">
             </a>
              <ul>
-                <li><a href="#" target="_blank">Франшиза</a></li>
-                <li><a href="#" target="">Наши традиции</a></li>
-                <li><a href="#" target="">Форматы</a></li>
-                <li><a href="#" target="">Контакт</a></li>
+                <li><a class="link" href="#tradition-section" target="_blank">Наши традиции</a></li>
+                <li><a class="link" href="#chef-section" target="">шеф-повара</a></li>
+                <li><a class="link" href="#formats-section" target="">Форматы</a></li>
+                <li><a class="link" href="#contsct-section" target="">Контакт</a></li>
              </ul>
         </nav>
-        <button type="button">Заказать звонок</button>
+        <button class="button" type="button">Заказать звонок</button>
     </head>
     <main>
         <section>
-            <h1>Современная пекарня</h1>
+            <h1 class="hero-title"><span class="accent">Современная</span> пекарня</h1>
         </section>
-        <section>
-            <ul>
+        <section id="tradition-section">
+            <ul class="advantages-list">
                 <li>Большой спрос на рынке</li>
                 <li>Доступные за бюджетом форматы</li>
                 <li>Опытная управленческая команда</li>
             </ul>
-            <h2>Новый формат традицый</h2>
+            <h2 class="section-title">Новый формат традицый</h2>
             <p><span>shop bakery</span> - это пекарня, которая взяла все наилучшее, и 
                 сохранила вкус традиционной выпечки и ингредиентов
             </p>
@@ -43,8 +44,8 @@
             </p>
             <img src="./image/baker-man.jpg" alt="Человек пекарь смотрит на батоны с улыбкой">
         </section>
-        <section>
-            <h2>Наши лучшие шеф-повары</h2>
+        <section id="chef-section">
+            <h2 class="section-title">Наши лучшие <span class="accent">шеф-повары</span></h2>
             <ul>
                 <li>
                     <article>
@@ -67,8 +68,8 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Форматы</h2>
+        <section id="formats-section">
+            <h2 class="section-title">Форматы</h2>
             <ul>
                 <li>
                     <article>
@@ -87,8 +88,16 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Присоединяйтес к сети пекарнь</h2>
+        <section id="contsct-section">
+            <h2 class="section-title">Присоединяйтес к сети пекарнь</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1636304352764!2d30.48869837612385!3d50.45667757159342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2spl!4v1761154874177!5m2!1sru!2spl"
+                width="603" 
+                height="595" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </section>
     </main>
     <footer>
@@ -97,8 +106,8 @@
         </a>
         <nav>
             <ul>
-                <li><a href="#" target="_blank">Франшиза</a></li>
-                <li><a href="#" target="">Наши традиции</a></li>
+                <li><a href="#" target="_blank">Наши традиции</a></li>
+                <li><a href="#" target="">Шеф-повара</a></li>
                 <li><a href="#" target="">Форматы</a></li>
                 <li><a href="#" target="">Контакт</a></li>
             </ul>
@@ -124,7 +133,7 @@
                 </li>
             </ul>
             <a href="#" target="_blank">Политика конфедициальности</a>
-            <p>© 20225 Данные защищены</p>
+            <p>&copy; 20225 Данные защищены</p>
         </address>
     </footer>
 </body>
